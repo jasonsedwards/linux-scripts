@@ -4,13 +4,13 @@ import os
 import sys
 
 def list_directory(directory='.'):
-	os.system("/usr/bin/ls --color=always -hal %s | /usr/bin/grep '^d'; /usr/bin/ls --color=always -hal %s | /usr/bin/grep '^[^dt-]'; /usr/bin/ls --color=always -hal %s | /usr/bin/grep '^-'" % (directory, directory, directory))
+  os.system("/usr/bin/ls --color=always -hal %s | /usr/bin/grep '^d'; /usr/bin/ls --color=always -hal %s | /usr/bin/grep '^[^dt-]'; /usr/bin/ls --color=always -hal %s | /usr/bin/grep '^-'" % (directory, directory, directory))
 
 def main():
-	if sys.argv[1:]:
-		list_directory(sys.argv[1])
-	else:
-		list_directory()
+  if sys.argv[1:]:
+    list_directory(sys.argv[1])
+  else:
+    list_directory()
 
 if __name__ == "__main__":
 	main()
