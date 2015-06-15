@@ -1,9 +1,9 @@
 # linux-scripts
 useful linux scripts
 
-## pyls.py
+## pyls.py Usage:
 ```python
-chmod +x pyls.py
-cp pyls.py /usr/local/bin
-pyls.py /etc
+chmod +x pyls
+cp pyls /usr/local/bin
+pyls /etc
 ```
