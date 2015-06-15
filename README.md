@@ -1,7 +1,7 @@
 # linux-scripts
 useful linux scripts
 
-## pyls.py Usage:
+## pyls Usage:
 ```python
 chmod +x pyls
 cp pyls /usr/local/bin
